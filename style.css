@@ -1,0 +1,42 @@
+
+/* styles.css */
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #020617;
+  padding: 10px;
+}
+
+nav a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
