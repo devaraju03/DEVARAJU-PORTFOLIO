@@ -78,7 +78,7 @@ section {
 
 .card:hover {
     transform: scale(1.05);
-    background: #f7b0ab;
+    background: #3B82F6;
     padding: 20px;
     border-radius: 10px;
     color: #020617
