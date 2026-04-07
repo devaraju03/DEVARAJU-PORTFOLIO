@@ -83,6 +83,12 @@ section {
     border-radius: 10px;
     color: #020617
 }
+.card a{
+    color:white;
+}
+.card a:hover{
+    color:black;
+}
 
 .social {
     margin-top: 15px;
