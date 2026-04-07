@@ -10,4 +10,7 @@ function typing() {
   }
 }
 
-window.onload = typing;
+window.onload = () => {
+  typing();
+  AOS.init();
+};
