@@ -1,5 +1,19 @@
 /* styles.css */
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+}
 .profile {
   width: 120px;
   border-radius: 50%;
