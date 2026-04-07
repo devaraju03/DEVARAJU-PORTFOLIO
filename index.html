@@ -5,51 +5,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Devaraju Portfolio</title>
+
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
+  <img src="profile.jpg" class="profile">
   <h1>Devaraju Putchigalla</h1>
   <p id="typing"></p>
+  <p class="info">📞 +91 9391671289 | 📧 doyouwornwork.03@gmail.com</p>
+  <p class="info">📍 Guntur, Andhra Pradesh, India</p>
+
+  <div class="buttons">
+    <a href="#contact">Hire Me</a>
+    <a href="resume.pdf" download>Download Resume</a>
+  </div>
 </header>
 
 <nav>
   <a href="#about">About</a>
   <a href="#skills">Skills</a>
+  <a href="#internships">Internships</a>
   <a href="#projects">Projects</a>
+  <a href="#education">Education</a>
   <a href="#contact">Contact</a>
 </nav>
 
-<section id="about">
+<section id="about" data-aos="fade-up">
   <h2>About Me</h2>
-  <p>I am a passionate fresher with strong interest in web development, cybersecurity, and problem-solving.</p>
+  <p>
+    Enthusiastic fresher with a strong interest in technology and problem-solving.
+    Possesses basic knowledge of electronics concepts and computer applications.
+    Willing to learn new skills quickly and grow in a technical field.
+  </p>
 </section>
 
-<section id="skills">
-  <h2>Skills</h2>
+<section id="skills" data-aos="fade-right">
+  <h2>Technical Skills</h2>
   <ul>
-    <li>Java, Python</li>
-    <li>HTML, CSS, JavaScript</li>
-    <li>MySQL</li>
+    <li><b>Programming:</b> Java, Python</li>
+    <li><b>Web:</b> HTML, CSS, JavaScript</li>
+    <li><b>Database:</b> MySQL</li>
   </ul>
 </section>
 
-<section id="projects">
-  <h2>Project</h2>
+<section id="internships" data-aos="fade-left">
+  <h2>Internships</h2>
+
   <div class="card">
-    <h3>Two-Factor Cloud Security System</h3>
-    <p>Secure cloud storage system using encryption and authentication.</p>
+    <h3>Android Developer Virtual Intern</h3>
+    <p>EduSkills (Google for Developers) | Apr 2025 – Jun 2025</p>
+    <ul>
+      <li>Learned Android development basics and UI design</li>
+      <li>Built basic mobile applications</li>
+    </ul>
   </div>
-</section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: doyouwornwork.03@gmail.com</p>
-  <p>Phone: 9391671289</p>
-  <p>Location: Guntur, Andhra Pradesh</p>
-</section>
-
-<script src="script.js"></script>
-</body>
+  <div class="card">
+    <h3>Ethical Hacking Virtual Intern</h3>
+    <p>EduSkills (AICTE) | Oct 2025 – Dec 2025</p>
+    <ul>
+      <li>Learned cybersecurity fundamentals and ethical hacking</li>
+      <li>Worked on authentication and data protection</li>
 </html>
